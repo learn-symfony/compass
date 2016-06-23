@@ -1,7 +1,6 @@
 #!/bin/sh
 
 STYLESHEETS="stylesheets"
-
 if [ -d compass ]; then
 	(
 		cd compass
@@ -16,7 +15,7 @@ mkdir "$STYLESHEETS"
 
 cp -r compass/frameworks/compass/stylesheets/* "$STYLESHEETS"
 
-# rename all the files
+#rename all the files
 for file in $(find "$STYLESHEETS" | grep scss$); do
 	out=$(echo $file | sed -e 's/\/_\([^\/]*\.scss\)$/\/\1/')
 	if [ $file != $out ]; then
