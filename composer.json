@@ -1,15 +1,18 @@
 {
-    "name": "leafo/scssphp-compass",
+    "name": "eugene-matvejev/compass",
     "description": "Compass for scssphp",
-    "homepage": "http://leafo.net/scssphp/",
     "require": {
-        "leafo/scssphp": "dev-master"
+        "leafo/scssphp": "^0.6"
     },
     "authors": [
         {
             "name": "Leaf Corcoran",
             "email": "leafot@gmail.com",
             "homepage": "http://leafo.net"
+        },
+        {
+            "name": "Eugene Matvejev",
+            "email": "eugene.matvejev@gmail.com"
         }
     ],
     "autoload": {
